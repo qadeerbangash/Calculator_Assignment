@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="border: 3px solid darkolivegreen; height: 280px; width: 247px;margin: 0 auto; background-color: silver;">
+        <div style="text-align: center; margin-top: 10px;">
+            <label style="font-weight: bold; font-size: 30px;" >Simple Calculator</label>
+        </div>
+        <div style="text-align: center;">
+            <br>
+            <input type="text" size="29" id="result" />
+        </div>
+        <div style="text-align: center;">
+            <br>
+            <button class="hover1" value="7" style="width: 57px; height: 30px; font-weight: bold; font-size: 15px;" onclick="first1('7')">7</button>
+            <button class="hover1" value="8" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('8')">8</button>
+            <button class="hover1" value="9" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('9')">9</button>
+            <button class="hover1" value="x" style="width: 57px; height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('*')">x</button>
+        </div>
+        <div style="text-align: center;">
+            <br>
+            <button class="hover1" value="7" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('4')">4</button>
+            <button class="hover1" value="8" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('5')">5</button>
+            <button class="hover1" value="9" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('6')">6</button>
+            <button class="hover1" value="x" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('-')">-</button>
+        </div>
+        <div style="text-align: center;">
+            <br>
+            <button class="hover1" value="7" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('1')">1</button>
+            <button class="hover1" value="8" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('2')">2</button>
+            <button class="hover1" value="9" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('3')">3</button>
+            <button class="hover1" value="x" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('+')">+</button>
+        </div>
+        <div style="text-align: center;">
+            <br>
+            <button class="hover1" value="7" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('0')">0</button>
+            <button class="hover1" value="8" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="first1('.')">.</button>
+            <button class="hover1" value="9" style="width: 57px;height: 30px;font-weight: bold;font-size: 15px;" onclick="getResult()">=</button>
+            <button class="hover1" value="x" style="width: 57px;height: 30px;font-weight: bold;" onclick="clear1()">C</button>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
